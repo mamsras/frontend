@@ -1,0 +1,51 @@
+/* src/styles/custom.css */
+
+
+.task-container {
+    width: 500px;
+}
+
+.task-card {
+    border-radius: 8px;
+    background-color: rgb(249, 252, 251);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+    border-left: 8px solid transparent; /* Barre colorée */
+}
+
+.task-card.to-do {
+    border-left-color: #007bff; /* Bleu pour "À faire" */
+}
+
+.task-card.in-progress {
+    border-left-color: #28a745; /* Vert pour "En cours" */
+}
+
+.task-card.completed {
+    border-left-color: #dc3545; /* Rouge pour "Terminé" */
+}
+
+.task-card.unfinished {
+    border-left-color: #fd7e14; /* Orange pour "Inachevé" */
+}
+
+.task-card:hover {
+    transform: scale(1.02);
+}
+
+.task-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.task-card-add-btn:hover {
+    background-color:#2bc2ae;
+    margin: 10px;
+}
+
+.filter-radio-btn {
+    margin: 5px 5px 25px;
+}

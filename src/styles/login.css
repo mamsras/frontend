@@ -1,0 +1,47 @@
+/* Login.css */
+
+/* Style du conteneur */
+.login-container {
+    max-width: 400px;
+    margin: 5% auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête */
+.login-form h2 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Champs de formulaire */
+.login-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+/* Effet de focus */
+.login-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.2);
+}
+
+/* Bouton de connexion */
+.login-button {
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 4px 12px rgba(0, 123, 255, 0.3);
+}

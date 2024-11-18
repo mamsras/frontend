@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* App.css */
+
+/* Style personnalisé pour le Navbar */
+.custom-navbar {
+  background-color: #2bc2ae;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.custom-navbar .nav-link {
+  color: #f8f9fa;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #dbff57;
+  text-decoration: none;
+}
+
+.custom-navbar .logout-link {
+  cursor: pointer;
+}
+
+.custom-navbar .nav-link.active {
+  color: #ffdd57;
+  font-weight: bold;
 }

@@ -1,0 +1,64 @@
+
+.notification-icon {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .notification-icon .fas {
+    font-size: 24px;
+    color: #d8f8f0;
+  }
+
+  .fas:hover {
+    color: #dbff57;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+  
+  
+
+.notification-menu {
+    max-height: 300px;
+    max-width: 400px;
+    overflow-y: auto;
+}
+
+.notification-item {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.btn-read {
+  background-color: #6c757d !important; /* Gris pour les notifications lues */
+  color: white !important;
+}
+
+.btn-read:hover {
+  background-color: #5a6268;
+}
+
+.btn-unread {
+  background-color: #007bff !important; /* Bleu pour les notifications non lues */
+  color: white !important;
+}
+
+.btn-unread:hover {
+  background-color: #0056b3;
+}
